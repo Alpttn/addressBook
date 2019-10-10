@@ -1,0 +1,11 @@
+C:\Users\allis\workspace\CSharp\book1\exercises\addressBook\bin\Debug\netcoreapp3.0\addressBook.exe
+C:\Users\allis\workspace\CSharp\book1\exercises\addressBook\bin\Debug\netcoreapp3.0\addressBook.deps.json
+C:\Users\allis\workspace\CSharp\book1\exercises\addressBook\bin\Debug\netcoreapp3.0\addressBook.runtimeconfig.json
+C:\Users\allis\workspace\CSharp\book1\exercises\addressBook\bin\Debug\netcoreapp3.0\addressBook.runtimeconfig.dev.json
+C:\Users\allis\workspace\CSharp\book1\exercises\addressBook\bin\Debug\netcoreapp3.0\addressBook.dll
+C:\Users\allis\workspace\CSharp\book1\exercises\addressBook\bin\Debug\netcoreapp3.0\addressBook.pdb
+C:\Users\allis\workspace\CSharp\book1\exercises\addressBook\obj\Debug\netcoreapp3.0\addressBook.csprojAssemblyReference.cache
+C:\Users\allis\workspace\CSharp\book1\exercises\addressBook\obj\Debug\netcoreapp3.0\addressBook.AssemblyInfoInputs.cache
+C:\Users\allis\workspace\CSharp\book1\exercises\addressBook\obj\Debug\netcoreapp3.0\addressBook.AssemblyInfo.cs
+C:\Users\allis\workspace\CSharp\book1\exercises\addressBook\obj\Debug\netcoreapp3.0\addressBook.dll
+C:\Users\allis\workspace\CSharp\book1\exercises\addressBook\obj\Debug\netcoreapp3.0\addressBook.pdb
