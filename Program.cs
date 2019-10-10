@@ -1,8 +1,7 @@
 ﻿using System;
-
 using System.Collections.Generic;
 
-namespace addressBook
+namespace addressBookExercise
 {
     class Program
     {
@@ -41,15 +40,21 @@ namespace addressBook
                 Address = "888 Easy St, Testville, TN 11111"
             };
 
+                AddressBook addressBook = new AddressBook(); //this needs to be outside the try block
+            try
+            {
+                // Create an AddressBook and add some contacts to it
+                addressBook.AddContact(bob);
+                addressBook.AddContact(sue);
+                addressBook.AddContact(juan);
 
-            // Create an AddressBook and add some contacts to it
-            AddressBook addressBook = new AddressBook();
-            addressBook.AddContact(bob);
-            addressBook.AddContact(sue);
-            addressBook.AddContact(juan);
-
-            // Try to addd a contact a second time
-            // addressBook.AddContact(sue);
+                // Try to addd a contact a second time
+                addressBook.AddContact(sue);
+            }
+            catch (ArgumentException ex)
+            {
+                Console.WriteLine("This contact already exists");
+            }
 
 
             // Create a list of emails that match our Contacts
@@ -60,7 +65,7 @@ namespace addressBook
         };
 
             // Insert an email that does NOT match a Contact
-            // emails.Insert(1, "not.in.addressbook@email.com");
+            emails.Insert(1, "not.in.addressbook@email.com");
 
 
             //  Search the AddressBook by email and print the information about each Contact

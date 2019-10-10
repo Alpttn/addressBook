@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 
 
-namespace addressBook
+namespace addressBookExercise
 {
     public class Contact
     {
